@@ -1,0 +1,74 @@
+/* Background Color */
+body {
+    background: linear-gradient(135deg, #ffe6f0, #fff0f5);
+}
+
+/*responsive design for mobile*/
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li a {
+        margin: 10px 0;
+        font-size: 1.1em;
+    }
+}
+
+/* structure */
+body {
+    width:100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Font Style */
+
+header {
+    background: linear-gradient(180deg, deeppink, hotpink);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 10px;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.1)
+}
+
+/* Navigation */
+nav ul {
+    font-family: 'Verdana', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;    
+}
+
+/* removing underline from links */
+nav ul li a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #f7f4f4;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+}
+
+nav ul li a:hover {
+    color: #f78d60;
+    text-shadow: 0 0 8px rgba(255, 182, 193, 0.8)
+}
+
+main {
+    font-family: 'Georgia', serif;
+    color: #222;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #ff69b4;
+}
